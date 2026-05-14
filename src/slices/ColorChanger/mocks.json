@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading2": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Fifteen"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Anim cupidatat excepteur labore Lorem nisi cupidatat pariatur Lorem commodo consectetur ullamco ullamco aliquip. Labore proident nulla ea quis aliqua non culpa. Id et ea cupidatat aute ea nisi."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

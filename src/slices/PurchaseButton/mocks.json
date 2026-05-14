@@ -1,0 +1,41 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"eyebow": {
+				"__TYPE__": "FieldContent",
+				"value": "fun",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Crack"
+						}
+					}
+				]
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "figure",
+				"type": "Text"
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Esse labore consectetur nulla cillum proident irure nostrud laborum esse do cillum qui. Lorem deserunt sint ad in consequat magna veniam."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

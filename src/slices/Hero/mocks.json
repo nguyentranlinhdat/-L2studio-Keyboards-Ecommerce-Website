@@ -1,0 +1,36 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Action"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ullamco amet amet ipsum ut commodo mollit fugiat aliquip Lorem esse est culpa. Commodo minim reprehenderit labore aute. Ullamco ipsum exercitation voluptate excepteur nisi proident fugiat."
+						}
+					}
+				]
+			},
+			"buy_button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "hot",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]
