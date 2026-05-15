@@ -1,5 +1,5 @@
 "use client";
-import { FC } from "react";
+import { FC, Suspense } from "react";
 import { Content } from "@prismicio/client";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
 import { Bounded } from "@/app/components/Bounded";
@@ -9,8 +9,16 @@ import { Canvas } from "@react-three/fiber";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
+import { Loader } from "@/app/components/Loader";
+import { useProgress } from "@react-three/drei";
 
 gsap.registerPlugin(useGSAP, SplitText, ScrollTrigger);
+
+// Loader
+function LoaderWrapper() {
+  const { active } = useProgress();
+  return active ? <Loader /> : null;
+}
 /**
  * Props for `Hero`.
  */
@@ -71,9 +79,11 @@ const Hero: FC<HeroProps> = ({ slice }) => {
     >
       <div className="hero-scene pointer-events-none sticky top-0 h-dvh w-full">
         {/*Canvas goes here */}
+
         <Canvas shadows="soft">
           <Scene />
         </Canvas>
+        <LoaderWrapper />
       </div>
       <div className="hero-content absolute inset-x-0 top-0 h-dvh">
         <Bounded
